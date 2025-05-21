@@ -61,9 +61,15 @@ These sequences allow fine-grained control over text formatting, making them inv
 ## 3) Questions
 
 1. Which escape sequences did not work on your machine? Which ones did?
-2. How can you use `\r` (carriage return) to overwrite a line in the terminal?
-3. What is the difference between `\n` (line feed) and `\r` (carriage return), and how does their behavior differ across operating systems?
-4. How do ANSI escape codes extend the functionality of basic control sequences?
+2. \t \n \n \' \" \a
+3. How can you use `\r` (carriage return) to overwrite a line in the terminal?
+   Dieses Element war dafür gedacht den Schreibkopf der Schreibmaschine zurück zu setzen.
+   
+5. What is the difference between `\n` (line feed) and `\r` (carriage return), and how does their behavior differ across operating systems?
+   \n works as a new carriage     \r brings carriage to start of the same line
+7. How do ANSI escape codes extend the functionality of basic control sequences?
+   the ANSI escapes codes allows us to formatt textes,to use collors, extending funtionality in working with text in terminal.
+   
 
 ## 4) Advice
 
